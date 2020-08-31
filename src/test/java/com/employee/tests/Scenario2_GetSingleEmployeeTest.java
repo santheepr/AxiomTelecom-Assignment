@@ -46,7 +46,7 @@ public class Scenario2_GetSingleEmployeeTest extends TestBase {
 		// Verify that request body is not null
 		String responsebody = response.getBody().asString();
 		Assert.assertTrue(responsebody != null);
-		log.info("Response body : "+responsebody);
+		log.info("Response is not null);
 
 		// Verify that status response code 200 is received
 		int statuscode = response.getStatusCode();
